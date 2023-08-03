@@ -12,16 +12,15 @@ class Person {
   }
 
 }
-
 class Student extends Person {
 	study() {
-    console.log("be.calledWith", `${student.name} is studying`);
+    console.log("be.calledWith", `${Student.name} is studying`);
   }
 }
 
 class Teacher extends Person {  
 	teach() {
-    console.log("be.calledWith", `${teacher.name} is teaching`);
+    console.log("be.calledWith", `${Teacher.name} is teaching`);
   }
 }
 
